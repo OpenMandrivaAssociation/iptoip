@@ -14,7 +14,7 @@ License:	GPL
 Url:		http://iptoip.sourceforge.net
 Requires:	perl perl-XML-Simple >= 1.05
 Requires:	perl-XML-Parser , ipvsadm
-Prereq:		rpm-helper
+Requires(post,preun):	rpm-helper
 Buildarch:	noarch
 
 
