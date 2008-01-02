@@ -10,6 +10,7 @@ Version:	%{version}
 Release:	%{release}
 Source: 	%{name}-%{cvsver}.tar.bz2
 Group:		Networking/Other
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 License:	GPL
 Url:		http://iptoip.sourceforge.net
 Requires:	perl perl-XML-Simple >= 1.05
