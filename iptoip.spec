@@ -1,6 +1,6 @@
 %define	name	iptoip
 %define	version	0.3.0
-%define	release	 %mkrel 0.6
+%define	release	 %mkrel 0.7
 
 %define	cvsver	20020115
 
