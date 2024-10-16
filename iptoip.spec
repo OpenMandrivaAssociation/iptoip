@@ -12,7 +12,7 @@ Source: 	%{name}-%{cvsver}.tar.bz2
 Group:		Networking/Other
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 License:	GPL
-Url:		http://iptoip.sourceforge.net
+Url:		https://iptoip.sourceforge.net
 Requires:	perl perl-XML-Simple >= 1.05
 Requires:	perl-XML-Parser , ipvsadm
 Requires(post,preun):	rpm-helper
